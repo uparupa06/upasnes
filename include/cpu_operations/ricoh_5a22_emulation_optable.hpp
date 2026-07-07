@@ -1,27 +1,27 @@
 #pragma once
 #include "ricoh_5a22_operations.hpp"
 
-constexpr Optable optable = {
+constexpr Optable emulation_optable = {
 
     &nop, // 0x00
 
-    &n_01, // 0x01
+    &e_01, // 0x01
 
     &nop, // 0x02
 
-    &nop, // 0x03
+    &e_03, // 0x03
 
     &nop, // 0x04
 
-    &nop, // 0x05
+    &e_05, // 0x05
 
     &nop, // 0x06
 
-    &nop, // 0x07
+    &e_07, // 0x07
 
     &nop, // 0x08
 
-    &n_09, // 0x09
+    &e_09, // 0x09
 
     &nop, // 0x0A
 
@@ -29,13 +29,13 @@ constexpr Optable optable = {
 
     &nop, // 0x0C
 
-    &nop, // 0x0D
+    &e_0d, // 0x0D
 
     &nop, // 0x0E
 
-    &nop, // 0x0F
+    &e_0f, // 0x0F
 
-    &nop, // 0x10
+    &e_10, // 0x10
 
     &nop, // 0x11
 
@@ -69,23 +69,23 @@ constexpr Optable optable = {
 
     &nop, // 0x20
 
-    &n_21, // 0x21
+    &e_21, // 0x21
 
     &nop, // 0x22
 
-    &nop, // 0x23
+    &e_23, // 0x23
 
     &nop, // 0x24
 
-    &nop, // 0x25
+    &e_25, // 0x25
 
     &nop, // 0x26
 
-    &nop, // 0x27
+    &e_27, // 0x27
 
     &nop, // 0x28
 
-    &n_29, // 0x29
+    &e_29, // 0x29
 
     &nop, // 0x2A
 
@@ -93,13 +93,13 @@ constexpr Optable optable = {
 
     &nop, // 0x2C
 
-    &nop, // 0x2D
+    &e_2d, // 0x2D
 
     &nop, // 0x2E
 
-    &nop, // 0x2F
+    &e_2f, // 0x2F
 
-    &nop, // 0x30
+    &e_30, // 0x30
 
     &nop, // 0x31
 
@@ -133,23 +133,23 @@ constexpr Optable optable = {
 
     &nop, // 0x40
 
-    &n_41, // 0x41
+    &e_41, // 0x41
 
     &nop, // 0x42
 
-    &nop, // 0x43
+    &e_43, // 0x43
 
     &nop, // 0x44
 
-    &nop, // 0x45
+    &e_45, // 0x45
 
     &nop, // 0x46
 
-    &nop, // 0x47
+    &e_47, // 0x47
 
     &nop, // 0x48
 
-    &n_49, // 0x49
+    &e_49, // 0x49
 
     &nop, // 0x4A
 
@@ -157,13 +157,13 @@ constexpr Optable optable = {
 
     &nop, // 0x4C
 
-    &nop, // 0x4D
+    &e_4d, // 0x4D
 
     &nop, // 0x4E
 
-    &nop, // 0x4F
+    &e_4f, // 0x4F
 
-    &nop, // 0x50
+    &e_50, // 0x50
 
     &nop, // 0x51
 
@@ -197,23 +197,23 @@ constexpr Optable optable = {
 
     &nop, // 0x60
 
-    &n_61, // 0x61
+    &e_61, // 0x61
 
     &nop, // 0x62
 
-    &nop, // 0x63
+    &e_63, // 0x63
 
     &nop, // 0x64
 
-    &nop, // 0x65
+    &e_65, // 0x65
 
     &nop, // 0x66
 
-    &nop, // 0x67
+    &e_67, // 0x67
 
     &nop, // 0x68
 
-    &n_69, // 0x69
+    &e_69, // 0x69
 
     &nop, // 0x6A
 
@@ -221,13 +221,13 @@ constexpr Optable optable = {
 
     &nop, // 0x6C
 
-    &nop, // 0x6D
+    &e_6d, // 0x6D
 
     &nop, // 0x6E
 
-    &nop, // 0x6F
+    &e_6f, // 0x6F
 
-    &nop, // 0x70
+    &e_70, // 0x70
 
     &nop, // 0x71
 
@@ -259,7 +259,7 @@ constexpr Optable optable = {
 
     &nop, // 0x7F
 
-    &nop, // 0x80
+    &e_80, // 0x80
 
     &nop, // 0x81
 
@@ -291,7 +291,7 @@ constexpr Optable optable = {
 
     &nop, // 0x8F
 
-    &nop, // 0x90
+    &e_90, // 0x90
 
     &nop, // 0x91
 
@@ -325,23 +325,23 @@ constexpr Optable optable = {
 
     &nop, // 0xA0
 
-    &n_a1, // 0xA1
+    &e_a1, // 0xA1
 
     &nop, // 0xA2
 
-    &n_a3, // 0xA3
+    &e_a3, // 0xA3
 
     &nop, // 0xA4
 
-    &n_a5, // 0xA5
+    &e_a5, // 0xA5
 
     &nop, // 0xA6
 
-    &nop, // 0xA7
+    &e_a7, // 0xA7
 
     &nop, // 0xA8
 
-    &n_a9, // 0xA9
+    &e_a9, // 0xA9
 
     &nop, // 0xAA
 
@@ -349,17 +349,17 @@ constexpr Optable optable = {
 
     &nop, // 0xAC
 
-    &nop, // 0xAD
+    &e_ad, // 0xAD
 
     &nop, // 0xAE
 
-    &nop, // 0xAF
+    &e_af, // 0xAF
 
-    &nop, // 0xB0
+    &e_b0, // 0xB0
 
-    &nop, // 0xB1
+    &e_b1, // 0xB1
 
-    &nop, // 0xB2
+    &e_b2, // 0xB2
 
     &nop, // 0xB3
 
@@ -419,7 +419,7 @@ constexpr Optable optable = {
 
     &nop, // 0xCF
 
-    &nop, // 0xD0
+    &e_d0, // 0xD0
 
     &nop, // 0xD1
 
@@ -483,7 +483,7 @@ constexpr Optable optable = {
 
     &nop, // 0xEF
 
-    &nop, // 0xF0
+    &e_f0, // 0xF0
 
     &nop, // 0xF1
 
