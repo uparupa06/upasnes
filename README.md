@@ -25,5 +25,5 @@ No set-up required.
 ## Usage
 1. To use, download a USA/Japan ROM for a game of your choosing. Place the downloaded file in the `rom` folder;
 2. Rename the ROM to a simple name (e.g. `Zelda - A Link to the Past.sfc` should become `zelda.sfc`)
-3. To run the emulator, navigate to the root directory. Run `./build/snes_emulator ___.sfc` (for example: `./build/snes_emulator zelda.sfc`)
+3. To run the emulator, navigate to the root directory. Run `./build/snes_emulator ___` (for example: `./build/snes_emulator zelda`)
 
