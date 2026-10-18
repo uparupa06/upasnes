@@ -15,7 +15,7 @@ No set-up required. Commercially-released or known prototypes will be assigned t
 So far, the SuperFX is the only supported coprocessor. Work is focused on implementing the remaining coprocessors in the following order.
 
 ### DSP-n/ST010/ST011/ST018 Games
-DSP-1 SUPPORT IS YET TO BE RE-ADDED
+DSP-1 SUPPORT IS YET TO BE ADDED
 For these games, download all of the firmware as was used by bsnes for versions v0.087 or later from [this website](https://caitsith2.com/snes/dsp/). Place, ensuring the names match exactly what is seen on the website, into the `firmware` folder.
 
 ### SA-1/CX4/OBC1/S-DD1/SPC7110 Games
