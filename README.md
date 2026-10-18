@@ -2,7 +2,7 @@
 A SNES emulator with sub-cycle-accurate Ricoh 5A22 and SPC-700 emulation and support for SuperFX coprocessor games. This is the first installment of my series of emulator projects, with the ultimate aim to combine these into a multi-system-emulator. This is currently able to support most major titles with no difficulty. This is currently only available for use on Linux.
 
 ## Set-up
-1. Clone via `git clone github.com/kctblackley/snes-emulator`;
+1. Clone via `git clone github.com/uparupa06/upasnes`;
 2. Due to copyright restrictions, the SNES SPC-700 IPL ROM will need to be manually provided. This can be found online. It is a 64-byte file;
 3. Download the IPL ROM. In the emulator's root directory, there is a folder, `ipl`. Place the IPL ROM file in there. Name the file `ipl.rom`;
 4. Via the terminal, locate to the root directory for the emulator. Build in Release mode via: `cmake -B build -DCMAKE_BUILD_TYPE=Release ; cmake --build build`
